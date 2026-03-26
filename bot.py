@@ -3,7 +3,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 
-TOKEN = os.getenv("MTQ4NjY3NzQzMTU1MjE4MDI4Ng.Gin8B-.8cwf7WpT36W2LlVNMqe6aA8xOCYUQgW3oBn65U")
+TOKEN = os.getenv("DISCORD_TOKEN")
 FFMPEG_PATH = os.getenv("FFMPEG_PATH", "ffmpeg")
 
 intents = discord.Intents.default()
